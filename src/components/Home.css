@@ -1,0 +1,253 @@
+
+#flag {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    position: relative;
+    background: #09110f;
+    color: white;
+    text-align: center;
+  }
+  #flag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15vw solid white;
+    border-left: 100vw solid transparent;
+}
+
+#flag:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 13.5vw solid white;
+    border-right: 60vh solid transparent;
+  }
+
+ .my-detail{
+     color: white;
+ }
+
+  @media screen and (min-width: 300px){
+    body{
+      overflow-x: hidden;
+    }
+    #flag {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        right: 0;
+        overflow-x: hidden;
+        background: #0e77b0;
+        color: white;
+        text-align: center;
+      }
+      #flag:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 35vw solid white;
+        border-left: 100vw solid transparent;
+    }
+    
+    #flag:before {
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-top: 35vw solid white;
+        border-right: 35vh solid transparent;
+      }
+
+      .header{
+          position: relative;
+          color: black;
+          display: flex;
+          height: 15vh;
+          align-items: center;
+      }
+      .header .logo{
+          margin-left: 1.5em;
+          font-weight: bold;
+          font-size: 1.25rem;
+          justify-content: flex-start;
+      }
+      .header .drawer{
+          display: flex;
+          flex:1;
+          justify-content: flex-end;
+    }
+      .my-detail{
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          line-height: 1.6em;
+          color: white;
+      }
+      .my-detail h2{
+        font-size: 2rem;
+      }
+      .my-detail p{
+          font-size: 1.1rem;
+          font-weight: bold;
+      }
+      .logo-section{
+        display: flex;
+        flex-direction: row;
+       position: relative;
+        top: 15vh;
+        left: 65vw;
+        color: black;
+        z-index: 1;
+      }
+  }
+
+ @media screen and (min-width: 600px){
+    #flag {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        right: 0;
+        overflow-x: hidden;
+        background: #0e77b0;
+        color: white;
+        text-align: center;
+      }
+      #flag:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 28vw solid white;
+        border-left: 100vw solid transparent;
+    }
+    
+    #flag:before {
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-top: 30vw solid white;
+        border-right: 55vh solid transparent;
+      }
+    h2{
+        font-size: 2.7rem;
+        line-height: 1.1em;
+    }
+    } 
+
+
+@media screen and (min-width: 750px){
+   .logo{
+     position: relative;
+     margin-left: 0em;
+   }
+
+   #flag {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    right: 0;
+    overflow-x: hidden;
+    background: #0e77b0;
+    color: white;
+    text-align: center;
+  }
+  #flag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom:  15vw solid white;
+    border-left: 100vw solid transparent;
+}
+
+#flag:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 20vw solid white;
+    border-right: 38vh solid transparent;
+  }
+
+  .my-detail h2{
+    font-size: 2.3rem;
+    line-height: 0.7em;
+  }
+  .logo-section{
+    display: flex;
+    flex-direction: row;
+   position: relative;
+    top: 15vh;
+    left: 80vw;
+    color: black;
+    z-index: 1;
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+  .logo{
+  position: relative;
+     margin-left: 0em;
+   }
+
+   #flag {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    right: 0;
+    overflow-x: hidden;
+    background: #0e77b0;
+    color: white;
+    text-align: center;
+  }
+  #flag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom:  12vw solid white;
+    border-left: 100vw solid transparent;
+}
+
+#flag:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 25vh solid white;
+    border-right: 25vw solid transparent;
+  }  
+}
